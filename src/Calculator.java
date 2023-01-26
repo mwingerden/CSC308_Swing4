@@ -28,8 +28,10 @@ public class Calculator extends JFrame implements ActionListener {
     /**
      * The main method that creates an instance of the Calculator class and runs and displays GUI
      *
+     * @param argv     Takes any input when running the class in the command line. Does not do anything.
+     *
      **/
-    public static void main() {
+    public static void main(String [] argv) {
         Calculator calc = new Calculator();
         calc.createAndShowGUI();
     }
