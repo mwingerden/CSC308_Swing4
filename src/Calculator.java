@@ -191,27 +191,5 @@ public class Calculator extends JFrame implements ActionListener {
                 this.operator = "";
             }
         }
-
-
-
-//        if(e.getActionCommand().equals("+")) {
-//            this.accumulator = text.getText();
-//            this.operator = e.getActionCommand();
-//            this.text.setText("");
-//            JButton jButton = (JButton)e.getSource();
-//            jButton.setBackground(Color.YELLOW);
-//        }
-//        else if(e.getActionCommand().equals("C")) {
-//            this.text.setText("");
-//        }
-//        else if(e.getActionCommand().equals("=")) {
-//            if(operator.equals("+")) {
-//                text.setText(Integer.toString(Integer.parseInt(accumulator) + Integer.parseInt(text.getText())));
-//            }
-//        }
-//        else {
-//            this.text.setText(this.text.getText() + e.getActionCommand());
-//        }
-//        System.out.println(e.getActionCommand());
     }
 }
