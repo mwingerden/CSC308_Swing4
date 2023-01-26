@@ -29,7 +29,7 @@ public class Calculator extends JFrame implements ActionListener {
      * The main method that creates an instance of the Calculator class and runs and displays GUI
      *
      **/
-    public static void main(String[] args) {
+    public static void main() {
         Calculator calc = new Calculator();
         calc.createAndShowGUI();
     }
@@ -116,6 +116,9 @@ public class Calculator extends JFrame implements ActionListener {
      * This method contains implementation of a calculator that only does basic arithmetic on integers only.
      * The method can only handle one operation at a time; you cannot add additional arithmetic after the
      * conclusion of an operation.
+     *
+     * @param e     Takes a ActionEvent variable that holds the information of what button was clicked
+     *              on the calculator.
      *
      **/
     @Override
